@@ -29,7 +29,7 @@ while running:
     if keys[pygame.K_RIGHT]:
         player.x += speed
 
-    screen.fill((255, 255, 255))  # white background
+    screen.fill((255, 255, 255)) 
 
     pygame.draw.rect(screen, (0, 255, 0), player)   
     pygame.draw.rect(screen, (255, 0, 0), enemy)   
@@ -37,3 +37,4 @@ while running:
     pygame.display.update()
 
 pygame.quit()
+
